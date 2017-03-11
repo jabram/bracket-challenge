@@ -1,0 +1,45 @@
+{
+  "name": "ncaa-brackets-2017",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabram/bracket-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jabram/bracket-challenge/issues"
+  },
+  "homepage": "https://github.com/jabram/bracket-challenge#readme",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "start": "gulp"
+  },
+  "dependencies": {
+    "firebase": "^3.6.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-env": "^1.1.10",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.1.0",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-mocha": "^4.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
